@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'messages/index'
-  resources to:"messages#index"
+  
+  root to:"messages#index"
   end
